@@ -51,4 +51,4 @@ As principais conclusões obtidas ao final do desenvolvimento do presente projet
 - Apesar do desempenho mediano, os algoritmos que melhor previram os encargos foram os menos complexos: regressão linear com dados padronizados e regressão linear com Lasso. O modelo de regressão linear com padronização dos dados conseguiu generalizar de forma eficiente para os dados contidos no conjunto de teste;
 
 
-- Como sugestão para novas *features*: se o cliente possui alguma condição de saúde pré-existente ou não, se é ou não sedentário e faixa de renda.
+- A criação de novas *features* pode chegar a enriquecer o nível de informação dos modelos gerados, com métricas apontando para um ótimo desempenho. Porém, neste ponto cabe dizer que a inclusão de novas variáveis deve sempre observar a minimização do uso de *features* que estão fora do controle da pessoa-alvo do modelo.
